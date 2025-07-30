@@ -1,0 +1,30 @@
+# Core video processing
+moviepy>=1.0.3
+pillow>=9.0.0
+
+# Speech recognition and transcription
+openai-whisper>=20231117
+torch>=1.13.0
+torchaudio>=0.13.0
+transformers>=4.25.0
+speechrecognition>=3.10.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+pydub>=0.25.0
+pyaudio>=0.2.11
+
+# Data processing
+numpy>=1.21.0
+pandas>=1.5.0
+matplotlib>=3.5.0
+
+# Optional dependencies for advanced alignment
+textgrid>=1.5  # For MFA TextGrid parsing
+praatio>=5.0.0  # Alternative TextGrid library
+webrtcvad>=2.0.10  # Voice activity detection
+
+# System dependencies (install via system package manager)
+# Ubuntu/Debian: sudo apt install ffmpeg espeak espeak-data libespeak1 libespeak-dev
+# macOS: brew install ffmpeg espeak
